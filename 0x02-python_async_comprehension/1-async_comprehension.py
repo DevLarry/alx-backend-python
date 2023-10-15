@@ -7,6 +7,7 @@ async_generator = __import__('0-async_generator').async_generator
 
 
 async def async_comprehension():
+    """Function"""
     result = []
     async for i in async_generator():
         result.append(i)
@@ -14,6 +15,7 @@ async def async_comprehension():
 
 if __name__ == "__main__":
     async def main():
+        """Function"""
         print(await async_comprehension())
 
     asyncio.run(main())
