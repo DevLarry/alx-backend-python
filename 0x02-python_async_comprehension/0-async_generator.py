@@ -13,7 +13,8 @@ async def async_generator():
 
 if __name__ == "__main__":
     async def print_yielded_values():
-        """Function"""
+        """this is the Function
+        """
         result = []
         async for i in async_generator():
             result.append(i)
